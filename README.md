@@ -1,4 +1,4 @@
-# Café Amora
+# La Douceur
 A frontend-only coffee recipe app: 15 recipes, search and filters, serving scaling, a flavour quiz, an ingredient finder, a journal, and three themes. No build step.
 
 ## Run locally
