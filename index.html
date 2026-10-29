@@ -63,10 +63,10 @@ body.splash-on{overflow:hidden}
 @keyframes pop{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
 .tile{position:relative;overflow:hidden}.tile>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 .moods{display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(150px,1fr))}
-.mood{position:relative;display:flex;align-items:flex-end;aspect-ratio:3/4;border-radius:var(--r);overflow:hidden;text-decoration:none;color:#fff;background:linear-gradient(160deg,var(--blush),var(--sage))}
+.mood{position:relative;display:flex;align-items:flex-end;aspect-ratio:2/3;border-radius:var(--r);overflow:hidden;text-decoration:none;color:#fff;background:linear-gradient(160deg,var(--blush),var(--sage))}
 .mood>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .5s}.mood:hover>img{transform:scale(1.05)}
 .mood span{position:relative;padding:28px 12px 12px;font:500 1.1rem 'Playfair Display',Georgia,serif;width:100%;background:linear-gradient(transparent,rgba(30,20,15,.78));text-shadow:0 1px 3px rgba(0,0,0,.5)}
-.banner{height:150px;border-radius:var(--r);overflow:hidden;margin:0 0 20px}.banner img{width:100%;height:100%;object-fit:cover;display:block}.banner:empty{display:none}
+.banner{height:clamp(150px,28vw,300px);border-radius:var(--r);overflow:hidden;margin:0 0 20px}.banner img{width:100%;height:100%;object-fit:cover;display:block}.banner:empty{display:none}
 .brand{display:flex;align-items:center;gap:8px}.brand svg{width:30px;height:30px;color:var(--coffee)}#slogo svg{width:56px;height:56px;color:var(--coffee)}
 @media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
 @media print{header,nav,.noprint{display:none}}
